@@ -37,12 +37,19 @@ const Bottles = ({ bottlesPromise }) => {
         addToStoreCart(bottle.id)
     }
 
+    const handleremoveFromCart = id => {
+        console.log('remove item from the cart' , id);
+
+        const remaingCart = cart.filter(bottle => bottle.id !== id);
+        setCart(remaingCart);
+    }
+
     // console.log(bottles)
     return (
         <div>
             <h3>Bottles: {bottles.length}</h3>
             <p>Added to Cart: {cart.length}</p>
-            <Cart cart = {cart}></Cart>
+            <Cart cart = {cart} handleremoveFromCart={handleremoveFromCart}></Cart>
             <div className='bottle-container'>
                 {
                     bottles.map(bottle => <Bottle 
