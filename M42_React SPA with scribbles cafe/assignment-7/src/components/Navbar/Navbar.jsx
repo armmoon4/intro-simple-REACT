@@ -5,7 +5,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100 shadow-sm px-20">
                 <div className="navbar-start">
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl"><span className='text-green-500'>helloAuction</span></a>
                 </div>
 
                 <div className='navbar-center'>
