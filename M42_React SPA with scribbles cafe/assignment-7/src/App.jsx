@@ -5,7 +5,8 @@ import Herosection from './components/Herosection/Herosection'
 import Items from './components/Items/Items'
 import Navbar from './components/Navbar/Navbar'
 import { LiaCommentSlashSolid } from 'react-icons/lia'
-
+import { ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 function App() {
 
   const [markItem, setMarkItem] = useState([]);
@@ -13,11 +14,13 @@ function App() {
 
   const handleItem = (item) => {
     setMarkItem([...markItem, item]);
+    toast("Item Added to list");
     setBidamount(totalbid + item.currentBidPrice);
   }
 
  const handleRemoveFavorite = (itemId, itemPrice) => {
   setMarkItem(markItem.filter(item => item.id !== itemId));
+   toast("Item Removed From list");
   setBidamount(totalbid - itemPrice);
 }
 
@@ -25,7 +28,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Herosection></Herosection>
-
+      <ToastContainer />
       <div className='max-w-7xl mx-auto px-8 sm:px-12 lg:px-16'>
         <h2 className='text-2xl font-bold py-6.5'>Active Auctions</h2>
         <p>Discover and bid on extraordinary items</p>
