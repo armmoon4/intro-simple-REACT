@@ -1,51 +1,51 @@
 [
   {
-    "id": "leica-m3-001",
+    "id": "1",
     "title": "Vintage Leica M3 Camera",
     "currentBidPrice": 2850,
-    "timeLeft": "2 Days left",
-    "image": "https://ibb.co.com/wN9mx7pJ"
+    "timeLeft": "2",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUwIMqQ8jYdVlifb9nIFE2vCxohxRfa4FPIQ&s"
   },
   {
-    "id": "gibson-sg-002",
+    "id": "2",
     "title": "1965 Gibson SG Standard Electric Guitar",
     "currentBidPrice": 2850,
-    "timeLeft": "2 Days left",
-    "image": "https://ibb.co.com/4R54rnVQ"
+    "timeLeft": "2",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF9P18_AdrtY7NCItWUTkplbD1X0zaCjTMoQ&s"
   },
   {
-    "id": "mac-128k-003",
+    "id": "3",
     "title": "Original Apple Macintosh 128K (1984)",
     "currentBidPrice": 2850,
-    "timeLeft": "2 Days left",
-    "image": "https://ibb.co.com/tM34rN2N"
+    "timeLeft": "2",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2DLnBbC1dopp1WrKz0zc4yEBcgofV5Gmy0w&s"
   },
   {
-    "id": "rolex-sub-004",
+    "id": "4",
     "title": "Rolex Submariner 16610",
     "currentBidPrice": 2850,
-    "timeLeft": "2 Days left",
-    "image": "https://ibb.co.com/KcfF8hdm"
+    "timeLeft": "2",
+    "image": "https://cdn.shopify.com/s/files/1/0404/8515/9075/files/sub3_1024x1024.jpg?v=1610365646"
   },
   {
-    "id": "gatsby-1st-005",
+    "id": "5",
     "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
     "currentBidPrice": 2850,
-    "timeLeft": "2 Days left",
-    "image": "https://ibb.co.com/zhXrGZgW"
+    "timeLeft": "2",
+    "image": "https://thefirstedition-prod.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/02/15225236/Fitzgerald_The-Great-Gatsby_12220-10-e1643913885816.jpg"
   },
   {
-    "id": "eames-chair-006",
+    "id": "6",
     "title": "Mid-Century Modern Eames Lounge Chair",
     "currentBidPrice": 2850,
-    "timeLeft": "2 Days left",
-    "image": "https://ibb.co.com/MyFFzm9Q"
+    "timeLeft": "2",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCt_dsoy0XjeqNAJJMqikiEc4BZBYk73YInw&s"
   },
   {
-    "id": "banksy-print-007",
+    "id": "7",
     "title": "Banksy Original Screen Print",
     "currentBidPrice": 2850,
-    "timeLeft": "2 Days left",
-    "image": "https://ibb.co.com/gZVJ9XXB"
+    "timeLeft": "2",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8vXV16cYUu-9k9Gs9phPAmmyhDAWt1w8HaQ&s"
   }
 ]
